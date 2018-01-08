@@ -1,7 +1,7 @@
 # hapi-react-api
 Hapi.js single page application boilerplate. React &amp; Redux frontend layer. Hapi server side REST API.
 
-##Main goal
+## Main goal
 Provide modern base solution to structure a hapi API project connected to React frontend layer.
 
 ##Quick start
