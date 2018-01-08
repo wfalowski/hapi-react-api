@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "name": "hapi-react-api",
+    "version": "0.1.0",
+    "description": "Hapi.js single page application boilerplate.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wfalowski/hapi-react-api.git"
+    },
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "scripts": {
+        "start": "(cd client && npm run build) && npm run server",
+        "client": "cd client && npm start",
+        "client:dev": "cd client && npm start",
+        "server": "node server/bootstrap.js",
+        "server:dev": "nodemon server/bootstrap.js",
+        "watch": "nodemon server/bootstrap.js"
+    },
+    "contributors": [
+        "Wojciech Fałowski <wojciech.falowski@schibsted.pl>",
+        "Paweł Dziok <pawel.dziok@schibsted.pl>",
+        "Bartosz Kahl <bartosz.kahl@schibsted.pl>"
+    ],
+    "keywords": [
+        "hapi",
+        "node",
+        "react",
+        "redux",
+        "api",
+        "rest",
+        "restful"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wfalowski/hapi-react-api/issues"
+    },
+    "homepage": "https://github.com/wfalowski/hapi-react-api#readme"
+}
